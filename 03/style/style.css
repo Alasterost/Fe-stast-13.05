@@ -1,0 +1,10 @@
+label{
+    color: yellow;
+    background-color: rgb(145, 145, 145);
+}
+.pass {
+position: absolute;
+left: 250px;
+top: 56px;
+cursor: pointer;
+}

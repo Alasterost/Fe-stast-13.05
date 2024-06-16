@@ -4,8 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <form>
+        <p>
+            <label for="username">
+                Type your name
+            </label>
+            <input id="username" type="text">
+        </p>
+        <p>
+            <label for="userpassword">
+                Password user
+            </label>
+            <input id="userpassword" type="password" placeholder="Ведите пароль" name="password">
+            <span class="pass" id="pass"><img src="img/eye.png" alt="" style="width: 15px; height: 15px;"></span>
+        </p>
+        <p>
+            <label for="Загрузка данных">
+                <input type="file">
+            </label>
+        </p>
+        <p>
+            <label for="LastName">
+                Last Name
+            </label>
+            <input id="LastName" placeholder="type LastName" type="text">
+        </p>
+        <p>
+            <label for="skills"></label>
+            <select id="skills">
+                <option value="01">My skills is HTML</option>
+                <option value="02">My skills is vs code</option>
+                <option value="03">My skills is git</option>
+                <option value="04">My skills is css</option>
+            </select>
+        </p>
+        <p>
+            <textarea cols="30" rows="15" placeholder="type text">
+            </textarea>
+        </p>
+        <p>
+            <input type="color">Выберите Ваш любимый цвет
+        </p>
+        <p>
+            <label for="Self">Self delivery</label>
+            <input type="radio" name="delivery" id="Self">
+
+            <label for="np">NP delivery</label>
+            <input type="radio" name="delivery" id="np">
+
+            <label for="UA">UA post</label>
+            <input type="radio" name="delivery" id="UA">
+        </p>
+        <p> <input type="email">Ведите свою почту</p>
+        <p> <input type="tel" value="+380"> Ведите свой номер телефона </p>
+        <p>
+            <label for="car">Car</label>
+            <input type="checkbox" name="car" id="car">
+
+            <label for="bus">Bus</label>
+            <input type="checkbox" name="bus" id="bus">
+
+            <label for="bicycle">Bicycle</label>
+            <input type="checkbox" name="bicycle" id="bicycle">
+        </p>
+        <p>
+            <label for="Sound">Sound</label>
+            <input type="range" value="15">звук
+        </p>
+        <p><input type="month">Дата</p>
+        <p><input type="number" value="2"> Ведите сумму для пожертвования</p>
+        <input type="submit" value="Send form">
+        <button>
+            button
+        </button>
+        <div>
+            <img src="img/Toliki.png" width="50" height="50" alt="">
+            <h4>toliki</h4>
+            <button>buy my toliki</button>
+        </div>
+    </form>
+    <img width="200" height="200" src="img/Toliki.png" alt="toliki">
+    <div>
+        <audio controls>
+            <source src="mp3/2023-12-08 12-58-35 (mp3cut.net).mp3">
+        </audio>
+    </div>
+    <div>
+        <video width="420" height="305"controls>
+            <source src="mp4/65438-514139134_small.mp4">
+        </video>
+    </div>
+    <div>
+        <iframe src="https://www.rbc.ua/ukr/news/ukrayini-cherez-speku-zavtra-znovu-vimikatimut-1718118967.html" frameborder="0" width="800" height="800"></iframe>
+    </div>
     
+    
+<script>
+const inputPass = document.getElementById('userpassword')
+const iconPass = document.getElementById('pass')
+
+iconPass.addEventListener('click', () => {
+    if (inputPass.getAttribute('type')==="password") {
+        inputPass.setAttribute('type','text');
+    } else {
+        inputPass.setAttribute('type','password');
+    }
+    });
+
+</script>
+
 </body>
 </html>

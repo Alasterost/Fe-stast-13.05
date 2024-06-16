@@ -1,0 +1,65 @@
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900*/
+
+.inter-100 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <100>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.inter-900 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <900>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+body {
+    background-color: white;
+    height: 5820px;
+    width: 916px;
+}
+.zagolovok {
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+}
+.IMG_central {
+    text-align: center;
+}
+.IMG_left {
+    text-align: left;
+}
+.IMG_right {
+    text-align: right;
+}
+h3 {
+    width: 875px;
+    font-size: 32px;
+}
+.Venera {
+    text-align:right;
+}
+.s {
+    text-align: center;
+    
+}
+p {
+    width: 916px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+/*.box1{
+    margin-bottom: 1px;
+}
+.box2 {
+    margin-bottom: 9px;
+}*/
