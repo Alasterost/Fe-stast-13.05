@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.headerbox {
+    background-color: #668E68;
+    
+    Width:1920px;
+    Height:80px;
+}
+.blockHeaderOne {
+    margin-top: 10px;
+    font-family:;
+    width: 50%;
+    
+}
+.blockHeadertwo{
+    width: 50%;
+}
+header h2{
+    font-size: 44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+}
+header p{
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+ }
+ main h1 {
+    font-size: 110px;
+    font-weight: 400;
+    font-family: "Shadows Into Light";
+    font-style: italic;
+    color: #FFFFFF;
+ }
+ .sekondtextmain {
+    font-family: "Shadows Into Light";
+    font-size: 40px;
+    font-weight: 400;
+ }
+.cava {
+    Width:1920px;
+    Height:520px;
+    background-image: url(img/back.png);
+}
+.Menu {
+    Width:1920px;
+    margin-bottom: 62px;
+}
+.sdsdsds {
+ border-radius: 50%;
+ border:9px solid #81613B;
+}
+/*.dsdsdsd {
+    margin-top: 60px;
+    margin-bottom:39px ;
+}*/
+button {
+    background-color: #668E68;
+    border-radius: 20px;
+    Width:160px;
+    Height:40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.ssssdddd {
+    background-color: #81613B;
+    Width:350px;
+    Height:91px;
+}
+.about {
+    color: white;
+    background-image: url(img/cafe\ 1.png);
+    width: 1920px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.TextAbout {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-size: 40px;
+    font-family: "Shadows Into Light";
+    font-weight: 400;
+}
+.TextDesign {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-size: 25px;
+    font-family: "Shadows Into Light";
+    font-weight: 400;
+
+}
+.firstTextAbout {
+    margin-bottom: 32px;
+}
+.NEWSTEXT {
+    font-family:"Shadows Into Light" ;
+    font-size: 40px;
+    font-weight: 400;
+}
+.SecondTextAbout{
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    margin-bottom: 60px;
+}
+.butt {
+    margin: 0 auto;
+}
+.newsBox {
+    background-color: #81613B33;
+    height: 406px;
+    
+}
+.NEWBLOCKTEXT {
+    Width:1109px;
+    
+    margin: 0 auto;
+    background-color: white;
+    
+}
+.textNEWS {
+    display: flex;
+    margin: 0 auto;
+}
+.textierogglif {
+    margin-left: 20px;
+    Width:1109px;
+    Height:102px;
+}
+.textcifra {
+    margin-top: 20px;
+    line-height: 20px;
+}
+footer {
+    background-color: black;
+    height: 180px;
+    width: 1920px;
+}
