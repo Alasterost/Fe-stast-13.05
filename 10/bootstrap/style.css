@@ -21,6 +21,9 @@
 .blockHeadertwo{
     width: 50%;
 }
+.blockHeadertwo:hover{
+    cursor: pointer;
+}
 header h2{
     font-size: 44;
     font-family: Georgia, 'Times New Roman', Times, serif;
