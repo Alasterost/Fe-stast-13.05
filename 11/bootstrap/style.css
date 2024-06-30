@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    max-width:1920px;
+    background-color: #668E68;
+    min-height: 80px;
+}
+.HeaderText {
+    font-size: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+}
+.fs-4 {
+    cursor: default;
+}
+.SecHeaderText{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+footer{
+    background: black;
+}
+ul{
+    gap: 52px;
+}
+h1{
+    font-size: 110px;
+    font-weight: 400;
+    font-family: "Shadows Into Light";
+    font-style: italic;
+    color: #FFFFFF;
+}
+.Main1 { 
+    background-image: url(img/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:520px;
+     
+}
+.sekondtextmain {
+    font-family: "Shadows Into Light";
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.about{
+    background-image: url(img/backsec.jpg);
+    max-width: 1920px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.TextAbout {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-size: 40px;
+    font-family: "Shadows Into Light";
+    font-weight: 400;
+}
+.TextDesign {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-size: 25px;
+    font-family: "Shadows Into Light";
+    font-weight: 400;
+
+}
+button {
+    border: 0cap;
+    background-color: #668E68;
+    width: 160px;
+    height: 40px;
+}
+.newsBox{
+    background-color: #81613B33;
+}
+.NEWBLOCKTEXT {
+    max-width:1109px;
+    margin: 0 auto;
+    background-color: white;
+}
+.NEWSTEXT {
+    font-family:"Shadows Into Light" ;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+.textcifra {
+    margin-top: 3%;
+    line-height: 20px;
+}
+.textierogglif {
+    max-Width:1109px;
+}
+footer {
+    background-color: black;
+    min-height: 180px;
+    max-width: 1920px;
+}
+.butNAV {
+    border: 0px;
+}

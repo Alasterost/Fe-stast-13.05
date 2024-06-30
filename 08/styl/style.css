@@ -460,3 +460,23 @@ footer {
 .Socialtext {
     cursor: default;
 }
+@media screen and (max-width: 720px) {
+    .alsME {
+      max-width: 80%;
+    }
+    .grid {
+      grid-template-columns: auto;
+      grid-template-areas:
+        "ContentPhoto"
+        "TextBox"
+        "Goals"
+        "Frustrations";
+    }
+    .ContentPhoto img {
+      width: 100%;
+    }
+    .TextInPhot {
+      width: 30%;
+      align-items: center;
+    }
+  }
