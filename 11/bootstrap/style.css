@@ -84,6 +84,7 @@ button {
     margin: 0 auto;
     background-color: white;
 }
+
 .NEWSTEXT {
     font-family:"Shadows Into Light" ;
     font-size: 40px;
@@ -111,4 +112,10 @@ footer {
 }
 img {
     border:9px solid #81613B;
+}
+
+@media screen and (max-width: 1150px){
+    .NEWBLOCKTEXT {
+        margin: 0 15px;
+    }
 }
