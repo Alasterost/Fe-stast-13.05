@@ -105,3 +105,10 @@ footer {
 .butNAV {
     border: 0px;
 }
+
+.SecondTextAbout {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+img {
+    border:9px solid #81613B;
+}
